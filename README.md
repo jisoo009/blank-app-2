@@ -17,3 +17,14 @@ A simple Streamlit app template for you to modify!
    ```
    $ streamlit run streamlit_app.py
    ```
+# --- 라이브러리 임포트 ---
+# 필요한 라이브러리들을 불러옵니다.
+import streamlit as st
+import pandas as pd
+import numpy as np
+import json
+from scipy import stats
+
+import plotly.graph_objects as go
+import plotly.express as px
+
